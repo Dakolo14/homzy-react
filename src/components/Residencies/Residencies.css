@@ -74,3 +74,20 @@
 .r-button>:nth-child(2) {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
 }
+
+@media (max-width: 768px) {
+    .r-head {
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .r-button {
+        position: initial;
+    }
+
+    .r-button button {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        padding: .4rem .8rem;
+    }
+}
